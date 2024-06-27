@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Spring MVC</title>
 </head>
 <body>
- <h1>hello MVC </h1>
+	<h1>this is home page </h1>
 </body>
 </html>
