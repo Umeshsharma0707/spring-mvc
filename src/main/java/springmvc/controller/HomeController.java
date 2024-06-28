@@ -12,7 +12,7 @@ public class HomeController {
 		System.out.println("home page");
 		return "index";
 	}
-	// ABOUT PAGE
+	// about PAGE
 	@RequestMapping("/about")
 	public String about() {
 		System.out.println("this is about page");
