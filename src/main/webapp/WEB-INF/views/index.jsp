@@ -20,6 +20,8 @@
 	<c:forEach var="item" items="${allCourses }">
 		<h1> <c:out value="${item }" /></h1>
 	</c:forEach>
+	
+	<h1><a href="javascript:void(0)">link</a></h1>
 
 </body>
 </html>
