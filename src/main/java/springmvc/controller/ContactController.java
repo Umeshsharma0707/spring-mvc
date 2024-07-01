@@ -17,16 +17,17 @@ public class ContactController {
 	}
 
 	@RequestMapping(path = "/processForm", method = RequestMethod.POST)
-	public String processForm(@RequestParam("email") String email, @RequestParam("userName") String name,
+	public String processForm(@RequestParam(name = "email", required = true, defaultValue = "default@gmail.com") String email, @RequestParam("userName") String name,
 			@RequestParam("userPassword") String userPassword, Model model) {
 		
-		model.addAttribute("email",email);
-		model.addAttribute("name",name);
-		model.addAttribute("userPassword", userPassword);
-		
-		System.out.println("user email : " + email);
-		System.out.println("user name : " + name);
-		System.out.println("user password : " + userPassword);
+		/*
+		 * model.addAttribute("email",email); model.addAttribute("name",name);
+		 * model.addAttribute("userPassword", userPassword);
+		 * 
+		 * System.out.println("user email : " + email);
+		 * System.out.println("user name : " + name);
+		 * System.out.println("user password : " + userPassword);
+		 */
 		return "success";
 	}
 }
