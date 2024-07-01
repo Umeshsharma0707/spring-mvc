@@ -13,9 +13,9 @@
 	
 	<h1>fetched data from form</h1>
 	
-	<h1>Name : <c:out value="${name }" /></h1>
-	<h1>Email : <c:out value="${email }" /></h1>
-	<h1>Password : <c:out value="${userPassword }" /></h1>
+	<h1>Name : <c:out value="${user.userName }" /></h1>
+	<h1>Email : <c:out value="${user.email }" /></h1>
+	<h1>Password : <c:out value="${user.userPassword }" /></h1>
 	
 </body>
 </html>
