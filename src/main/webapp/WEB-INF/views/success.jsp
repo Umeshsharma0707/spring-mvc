@@ -13,12 +13,17 @@
 	
 	<h1>fetched data from form</h1>
 	<h1><c:out value="${heading }" /></h1>
-	
+	<hr>
+	<h1>${msg }</h1>
 	<hr>
 	
+	
+			
 	<h1>Name : <c:out value="${user.userName }" /></h1>
 	<h1>Email : <c:out value="${user.email }" /></h1>
 	<h1>Password : <c:out value="${user.userPassword }" /></h1>
+	
+	
 	
 </body>
 </html>
