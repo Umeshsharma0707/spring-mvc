@@ -33,6 +33,9 @@ public class ContactController {
 	public String handleForm(@ModelAttribute() User user , Model model ) {
 		
 		int id = this.userService.createUser(user);
+		
+		
+		
 		model.addAttribute("msg", "user created at id " + id);
 		System.out.println(user);
 		return "success";
