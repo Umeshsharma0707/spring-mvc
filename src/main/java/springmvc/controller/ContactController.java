@@ -46,7 +46,7 @@ public class ContactController {
 	 * String processForm(@RequestParam(name = "email", required = true,
 	 * defaultValue = "default@gmail.com") String email, @RequestParam("userName")
 	 * String name,
-	  
+	 *
 	 * @RequestParam("userPassword") String userPassword, Model model) {
 	 * 
 	 * User user = new User();
