@@ -7,7 +7,7 @@ import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
 public class ReController {
-	
+	// redirect controller
 		@RequestMapping(path = "/one")
 		public String one() {
 			System.out.println("one request handler");
